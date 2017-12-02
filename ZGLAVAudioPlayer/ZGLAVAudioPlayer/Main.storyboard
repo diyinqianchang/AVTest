@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KZP-Lv-CMR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ren'eLiu" translatesAutoresizingMaskIntoConstraints="NO" id="60D-Kc-R1j"/>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OO3-BK-FpG" userLabel="controlPanel">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uh4-RX-833">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="79b-e3-Nir"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ti-z3-yyu" userLabel="love">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="iDy-cK-t4O"/>
+                                            <constraint firstAttribute="width" constant="40" id="sq8-3e-9cK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" backgroundImage="playing_btn_love">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTe-hA-vne" userLabel="download">
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="G5e-rJ-vkJ"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="IR2-W1-Fwz"/>
+                                            <constraint firstAttribute="height" constant="40" id="PM5-CS-6ZL"/>
+                                            <constraint firstAttribute="width" constant="40" id="Py2-Uk-hD2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" backgroundImage="nowplaying_download_btn">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XU8-aV-awp"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6e-si-Muv" userLabel="play">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="O5f-br-ka2"/>
+                                            <constraint firstAttribute="width" constant="65" id="SQR-4S-UBO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="playing_btn_play_n"/>
+                                        <connections>
+                                            <action selector="playClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e4j-dy-Fzp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVB-RR-2t4" userLabel="nextplay">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="a1O-Jj-3qF"/>
+                                            <constraint firstAttribute="width" constant="40" id="znQ-rR-mpu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="playing_btn_next_n"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5G-av-JtK" userLabel="preplay">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Fdm-cO-Rk5"/>
+                                            <constraint firstAttribute="width" constant="40" id="ybp-0n-unP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="playing_btn_pre_n"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="1Ti-z3-yyu" firstAttribute="top" secondItem="OO3-BK-FpG" secondAttribute="top" constant="10" id="1N7-aJ-cqq"/>
+                                    <constraint firstItem="RVB-RR-2t4" firstAttribute="centerY" secondItem="S6e-si-Muv" secondAttribute="centerY" id="5Qp-5L-8W6"/>
+                                    <constraint firstItem="S6e-si-Muv" firstAttribute="leading" secondItem="j5G-av-JtK" secondAttribute="trailing" constant="55" id="7Us-iw-vHA"/>
+                                    <constraint firstItem="j5G-av-JtK" firstAttribute="centerY" secondItem="S6e-si-Muv" secondAttribute="centerY" id="7aH-i6-h9W"/>
+                                    <constraint firstItem="uh4-RX-833" firstAttribute="leading" secondItem="OO3-BK-FpG" secondAttribute="leading" id="CxR-Gk-03V"/>
+                                    <constraint firstItem="XTe-hA-vne" firstAttribute="centerY" secondItem="1Ti-z3-yyu" secondAttribute="centerY" id="D3G-cc-OZz"/>
+                                    <constraint firstItem="S6e-si-Muv" firstAttribute="top" secondItem="OO3-BK-FpG" secondAttribute="top" constant="85" id="EdZ-JD-nNX"/>
+                                    <constraint firstItem="S6e-si-Muv" firstAttribute="centerX" secondItem="OO3-BK-FpG" secondAttribute="centerX" id="N0z-TX-mz1"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Ti-z3-yyu" secondAttribute="trailing" constant="20" id="VPb-he-BFx"/>
+                                    <constraint firstItem="XU8-aV-awp" firstAttribute="leading" secondItem="OO3-BK-FpG" secondAttribute="leading" id="VfT-MF-x9I"/>
+                                    <constraint firstItem="RVB-RR-2t4" firstAttribute="leading" secondItem="S6e-si-Muv" secondAttribute="trailing" constant="48" id="aOz-7u-hia"/>
+                                    <constraint firstAttribute="trailing" secondItem="XU8-aV-awp" secondAttribute="trailing" id="neU-qQ-Nk8"/>
+                                    <constraint firstItem="XU8-aV-awp" firstAttribute="top" secondItem="XTe-hA-vne" secondAttribute="bottom" constant="11" id="pyx-x1-x1V"/>
+                                    <constraint firstItem="1Ti-z3-yyu" firstAttribute="leading" secondItem="XTe-hA-vne" secondAttribute="trailing" constant="8" id="smw-YT-TF1"/>
+                                    <constraint firstItem="uh4-RX-833" firstAttribute="top" secondItem="OO3-BK-FpG" secondAttribute="top" constant="20" id="zIH-Fq-nE5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="60D-Kc-R1j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="A5Y-7C-bQg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="60D-Kc-R1j" secondAttribute="bottom" id="FLW-T6-3VY"/>
+                            <constraint firstAttribute="trailing" secondItem="60D-Kc-R1j" secondAttribute="trailing" id="MVP-6C-BXn"/>
+                            <constraint firstItem="OO3-BK-FpG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f7M-lF-K1u"/>
+                            <constraint firstItem="OO3-BK-FpG" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="ffO-m8-AOP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OO3-BK-FpG" secondAttribute="bottom" id="mmR-Tg-eur"/>
+                            <constraint firstItem="60D-Kc-R1j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xbF-5T-KBT"/>
+                            <constraint firstAttribute="trailing" secondItem="OO3-BK-FpG" secondAttribute="trailing" id="zC1-DF-Jzo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QjH-33-ceu"/>
+                    <connections>
+                        <outlet property="contentLabel" destination="uh4-RX-833" id="Qe8-rC-17f"/>
+                        <outlet property="playOrPause" destination="S6e-si-Muv" id="o5w-dJ-vCG"/>
+                        <outlet property="playProgress" destination="XU8-aV-awp" id="Efn-Hq-h1V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yAU-7r-LgZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KZP-Lv-CMR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6GU-Ei-nYl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VmD-GL-QAd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xu8-WT-AiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-463" y="-545"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ren'eLiu" width="550" height="745"/>
+        <image name="nowplaying_download_btn" width="40" height="40"/>
+        <image name="playing_btn_love" width="40" height="40"/>
+        <image name="playing_btn_next_n" width="40" height="40"/>
+        <image name="playing_btn_play_n" width="65" height="65"/>
+        <image name="playing_btn_pre_n" width="40" height="40"/>
+    </resources>
+</document>

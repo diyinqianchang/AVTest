@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		584E4A931FD2E5AF0028C58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584E4A921FD2E5AF0028C58B /* main.m */; };
+		584E4A961FD2E5AF0028C58B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584E4A951FD2E5AF0028C58B /* AppDelegate.m */; };
+		584E4A9E1FD2E5AF0028C58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584E4A9D1FD2E5AF0028C58B /* Assets.xcassets */; };
+		584E4AA11FD2E5AF0028C58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584E4A9F1FD2E5AF0028C58B /* LaunchScreen.storyboard */; };
+		584E4AAC1FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584E4AAB1FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.m */; };
+		584E4AB71FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584E4AB61FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.m */; };
+		584E4AC51FD2E5C50028C58B /* story.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 584E4AC41FD2E5C50028C58B /* story.mp4 */; };
+		584E4AC91FD2E5E80028C58B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584E4AC71FD2E5E80028C58B /* ViewController.m */; };
+		584E4ACA1FD2E5E80028C58B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584E4AC81FD2E5E80028C58B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584E4AA81FD2E5AF0028C58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584E4A861FD2E5AF0028C58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584E4A8D1FD2E5AF0028C58B;
+			remoteInfo = ZGLMPMoviePlayerController;
+		};
+		584E4AB31FD2E5AF0028C58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584E4A861FD2E5AF0028C58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584E4A8D1FD2E5AF0028C58B;
+			remoteInfo = ZGLMPMoviePlayerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		584E4A8E1FD2E5AF0028C58B /* ZGLMPMoviePlayerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGLMPMoviePlayerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584E4A921FD2E5AF0028C58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584E4A941FD2E5AF0028C58B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584E4A951FD2E5AF0028C58B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584E4A9D1FD2E5AF0028C58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		584E4AA01FD2E5AF0028C58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		584E4AA21FD2E5AF0028C58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584E4AA71FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGLMPMoviePlayerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584E4AAB1FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLMPMoviePlayerControllerTests.m; sourceTree = "<group>"; };
+		584E4AAD1FD2E5AF0028C58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584E4AB21FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGLMPMoviePlayerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584E4AB61FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLMPMoviePlayerControllerUITests.m; sourceTree = "<group>"; };
+		584E4AB81FD2E5AF0028C58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584E4AC41FD2E5C50028C58B /* story.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = story.mp4; sourceTree = "<group>"; };
+		584E4AC61FD2E5E80028C58B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		584E4AC71FD2E5E80028C58B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		584E4AC81FD2E5E80028C58B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584E4A8B1FD2E5AF0028C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584E4AA41FD2E5AF0028C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584E4AAF1FD2E5AF0028C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584E4A851FD2E5AF0028C58B = {
+			isa = PBXGroup;
+			children = (
+				584E4A901FD2E5AF0028C58B /* ZGLMPMoviePlayerController */,
+				584E4AAA1FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests */,
+				584E4AB51FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests */,
+				584E4A8F1FD2E5AF0028C58B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584E4A8F1FD2E5AF0028C58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584E4A8E1FD2E5AF0028C58B /* ZGLMPMoviePlayerController.app */,
+				584E4AA71FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.xctest */,
+				584E4AB21FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584E4A901FD2E5AF0028C58B /* ZGLMPMoviePlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				584E4A941FD2E5AF0028C58B /* AppDelegate.h */,
+				584E4A951FD2E5AF0028C58B /* AppDelegate.m */,
+				584E4AC61FD2E5E80028C58B /* ViewController.h */,
+				584E4AC71FD2E5E80028C58B /* ViewController.m */,
+				584E4AC81FD2E5E80028C58B /* Main.storyboard */,
+				584E4AC41FD2E5C50028C58B /* story.mp4 */,
+				584E4A9D1FD2E5AF0028C58B /* Assets.xcassets */,
+				584E4A9F1FD2E5AF0028C58B /* LaunchScreen.storyboard */,
+				584E4AA21FD2E5AF0028C58B /* Info.plist */,
+				584E4A911FD2E5AF0028C58B /* Supporting Files */,
+			);
+			path = ZGLMPMoviePlayerController;
+			sourceTree = "<group>";
+		};
+		584E4A911FD2E5AF0028C58B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584E4A921FD2E5AF0028C58B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		584E4AAA1FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				584E4AAB1FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.m */,
+				584E4AAD1FD2E5AF0028C58B /* Info.plist */,
+			);
+			path = ZGLMPMoviePlayerControllerTests;
+			sourceTree = "<group>";
+		};
+		584E4AB51FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				584E4AB61FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.m */,
+				584E4AB81FD2E5AF0028C58B /* Info.plist */,
+			);
+			path = ZGLMPMoviePlayerControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584E4A8D1FD2E5AF0028C58B /* ZGLMPMoviePlayerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584E4ABB1FD2E5AF0028C58B /* Build configuration list for PBXNativeTarget "ZGLMPMoviePlayerController" */;
+			buildPhases = (
+				584E4A8A1FD2E5AF0028C58B /* Sources */,
+				584E4A8B1FD2E5AF0028C58B /* Frameworks */,
+				584E4A8C1FD2E5AF0028C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGLMPMoviePlayerController;
+			productName = ZGLMPMoviePlayerController;
+			productReference = 584E4A8E1FD2E5AF0028C58B /* ZGLMPMoviePlayerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		584E4AA61FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584E4ABE1FD2E5AF0028C58B /* Build configuration list for PBXNativeTarget "ZGLMPMoviePlayerControllerTests" */;
+			buildPhases = (
+				584E4AA31FD2E5AF0028C58B /* Sources */,
+				584E4AA41FD2E5AF0028C58B /* Frameworks */,
+				584E4AA51FD2E5AF0028C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584E4AA91FD2E5AF0028C58B /* PBXTargetDependency */,
+			);
+			name = ZGLMPMoviePlayerControllerTests;
+			productName = ZGLMPMoviePlayerControllerTests;
+			productReference = 584E4AA71FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		584E4AB11FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584E4AC11FD2E5AF0028C58B /* Build configuration list for PBXNativeTarget "ZGLMPMoviePlayerControllerUITests" */;
+			buildPhases = (
+				584E4AAE1FD2E5AF0028C58B /* Sources */,
+				584E4AAF1FD2E5AF0028C58B /* Frameworks */,
+				584E4AB01FD2E5AF0028C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584E4AB41FD2E5AF0028C58B /* PBXTargetDependency */,
+			);
+			name = ZGLMPMoviePlayerControllerUITests;
+			productName = ZGLMPMoviePlayerControllerUITests;
+			productReference = 584E4AB21FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584E4A861FD2E5AF0028C58B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = diyinqianchang;
+				TargetAttributes = {
+					584E4A8D1FD2E5AF0028C58B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AYG46SGLDU;
+						ProvisioningStyle = Automatic;
+					};
+					584E4AA61FD2E5AF0028C58B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AYG46SGLDU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 584E4A8D1FD2E5AF0028C58B;
+					};
+					584E4AB11FD2E5AF0028C58B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AYG46SGLDU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 584E4A8D1FD2E5AF0028C58B;
+					};
+				};
+			};
+			buildConfigurationList = 584E4A891FD2E5AF0028C58B /* Build configuration list for PBXProject "ZGLMPMoviePlayerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584E4A851FD2E5AF0028C58B;
+			productRefGroup = 584E4A8F1FD2E5AF0028C58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584E4A8D1FD2E5AF0028C58B /* ZGLMPMoviePlayerController */,
+				584E4AA61FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests */,
+				584E4AB11FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584E4A8C1FD2E5AF0028C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584E4AA11FD2E5AF0028C58B /* LaunchScreen.storyboard in Resources */,
+				584E4AC51FD2E5C50028C58B /* story.mp4 in Resources */,
+				584E4A9E1FD2E5AF0028C58B /* Assets.xcassets in Resources */,
+				584E4ACA1FD2E5E80028C58B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584E4AA51FD2E5AF0028C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584E4AB01FD2E5AF0028C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584E4A8A1FD2E5AF0028C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584E4AC91FD2E5E80028C58B /* ViewController.m in Sources */,
+				584E4A961FD2E5AF0028C58B /* AppDelegate.m in Sources */,
+				584E4A931FD2E5AF0028C58B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584E4AA31FD2E5AF0028C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584E4AAC1FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584E4AAE1FD2E5AF0028C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584E4AB71FD2E5AF0028C58B /* ZGLMPMoviePlayerControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584E4AA91FD2E5AF0028C58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584E4A8D1FD2E5AF0028C58B /* ZGLMPMoviePlayerController */;
+			targetProxy = 584E4AA81FD2E5AF0028C58B /* PBXContainerItemProxy */;
+		};
+		584E4AB41FD2E5AF0028C58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584E4A8D1FD2E5AF0028C58B /* ZGLMPMoviePlayerController */;
+			targetProxy = 584E4AB31FD2E5AF0028C58B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		584E4A9F1FD2E5AF0028C58B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584E4AA01FD2E5AF0028C58B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584E4AB91FD2E5AF0028C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		584E4ABA1FD2E5AF0028C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584E4ABC1FD2E5AF0028C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLMPMoviePlayerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLMPMoviePlayerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584E4ABD1FD2E5AF0028C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLMPMoviePlayerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLMPMoviePlayerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		584E4ABF1FD2E5AF0028C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLMPMoviePlayerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLMPMoviePlayerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGLMPMoviePlayerController.app/ZGLMPMoviePlayerController";
+			};
+			name = Debug;
+		};
+		584E4AC01FD2E5AF0028C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLMPMoviePlayerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLMPMoviePlayerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGLMPMoviePlayerController.app/ZGLMPMoviePlayerController";
+			};
+			name = Release;
+		};
+		584E4AC21FD2E5AF0028C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLMPMoviePlayerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLMPMoviePlayerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGLMPMoviePlayerController;
+			};
+			name = Debug;
+		};
+		584E4AC31FD2E5AF0028C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLMPMoviePlayerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLMPMoviePlayerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGLMPMoviePlayerController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584E4A891FD2E5AF0028C58B /* Build configuration list for PBXProject "ZGLMPMoviePlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584E4AB91FD2E5AF0028C58B /* Debug */,
+				584E4ABA1FD2E5AF0028C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584E4ABB1FD2E5AF0028C58B /* Build configuration list for PBXNativeTarget "ZGLMPMoviePlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584E4ABC1FD2E5AF0028C58B /* Debug */,
+				584E4ABD1FD2E5AF0028C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		584E4ABE1FD2E5AF0028C58B /* Build configuration list for PBXNativeTarget "ZGLMPMoviePlayerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584E4ABF1FD2E5AF0028C58B /* Debug */,
+				584E4AC01FD2E5AF0028C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		584E4AC11FD2E5AF0028C58B /* Build configuration list for PBXNativeTarget "ZGLMPMoviePlayerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584E4AC21FD2E5AF0028C58B /* Debug */,
+				584E4AC31FD2E5AF0028C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584E4A861FD2E5AF0028C58B /* Project object */;
+}
