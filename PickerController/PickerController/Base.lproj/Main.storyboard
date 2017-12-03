@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZJi-Gn-PVT" userLabel="mainImage"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_tabBar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="gt2-zq-dfj" userLabel="backView"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-3I-OqR">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="qXU-dT-Wes"/>
+                                    <constraint firstAttribute="height" constant="75" id="sda-3m-zOF"/>
+                                </constraints>
+                                <state key="normal" image="icon_facial_btn_take" backgroundImage="sc_btn_take"/>
+                                <connections>
+                                    <action selector="playClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLc-U5-FNr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZJi-Gn-PVT" secondAttribute="trailing" id="7EV-fb-N24"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZJi-Gn-PVT" secondAttribute="bottom" constant="100" id="8ye-VM-8gw"/>
+                            <constraint firstItem="ZJi-Gn-PVT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Cfp-2V-w4F"/>
+                            <constraint firstAttribute="trailing" secondItem="gt2-zq-dfj" secondAttribute="trailing" id="Gle-HJ-cN9"/>
+                            <constraint firstItem="gt2-zq-dfj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Gm5-WS-9gH"/>
+                            <constraint firstItem="jfZ-3I-OqR" firstAttribute="centerY" secondItem="gt2-zq-dfj" secondAttribute="centerY" id="aiF-Ug-Z8F"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gt2-zq-dfj" secondAttribute="bottom" id="cFw-Rf-gCa"/>
+                            <constraint firstItem="ZJi-Gn-PVT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kbP-oR-uoC"/>
+                            <constraint firstItem="gt2-zq-dfj" firstAttribute="top" secondItem="ZJi-Gn-PVT" secondAttribute="bottom" id="t10-Lo-tOJ"/>
+                            <constraint firstItem="jfZ-3I-OqR" firstAttribute="centerX" secondItem="gt2-zq-dfj" secondAttribute="centerX" id="yZ6-HE-Yi6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="ZJi-Gn-PVT" id="aUA-OU-I6V"/>
+                        <outlet property="playBtn" destination="jfZ-3I-OqR" id="1gS-zv-58B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="97.601199400299862"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_tabBar_bg" width="20" height="20"/>
+        <image name="icon_facial_btn_take" width="31" height="31"/>
+        <image name="sc_btn_take" width="73" height="73"/>
+    </resources>
+</document>

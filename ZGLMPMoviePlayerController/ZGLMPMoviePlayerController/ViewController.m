@@ -34,6 +34,8 @@
 }
 
 
+
+
 -(void)thumbnailImageRequest{
     
     [self.moviePlayer requestThumbnailImagesAtTimes:@[@13.0,@21.5] timeOption:MPMovieTimeOptionNearestKeyFrame];

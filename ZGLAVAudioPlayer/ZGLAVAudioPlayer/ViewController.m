@@ -36,6 +36,7 @@ static NSString * const kMusicTitle = @"原来你也在这里";
 }
 
 
+
 -(void)setupUI{
     
     self.title = kMusicTitle;

@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ZGLVideoRecorder/ZGLVideoRecorder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ZGLAVFoundVideo/ZGLAVFoundVideo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PickerController/PickerController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ZGLAVAudioRecorder/ZGLAVAudioRecorder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AVPlayerLayer/AVPlayerLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ImageGenerator/ImageGenerator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ZGLAVAudioPlayer/ZGLAVAudioPlayer.xcodeproj">
    </FileRef>
    <FileRef

@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5817403F1FD40C60007BA23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5817403E1FD40C60007BA23D /* main.m */; };
+		581740421FD40C60007BA23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740411FD40C60007BA23D /* AppDelegate.m */; };
+		581740451FD40C60007BA23D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740441FD40C60007BA23D /* ViewController.m */; };
+		581740481FD40C60007BA23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581740461FD40C60007BA23D /* Main.storyboard */; };
+		5817404A1FD40C60007BA23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581740491FD40C60007BA23D /* Assets.xcassets */; };
+		5817404D1FD40C60007BA23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5817404B1FD40C60007BA23D /* LaunchScreen.storyboard */; };
+		581740581FD40C60007BA23D /* ZGLVideoRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740571FD40C60007BA23D /* ZGLVideoRecorderTests.m */; };
+		581740631FD40C60007BA23D /* ZGLVideoRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740621FD40C60007BA23D /* ZGLVideoRecorderUITests.m */; };
+		581740731FD411E6007BA23D /* LevelMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740721FD411E6007BA23D /* LevelMeterView.m */; };
+		581740761FD41464007BA23D /* LevelMeterColorThreshold.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740751FD41464007BA23D /* LevelMeterColorThreshold.m */; };
+		581740791FD41B76007BA23D /* MeterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740781FD41B76007BA23D /* MeterTable.m */; };
+		5817407C1FD421D9007BA23D /* MemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5817407B1FD421D9007BA23D /* MemoCell.m */; };
+		5817407F1FD42276007BA23D /* Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5817407E1FD42276007BA23D /* Memo.m */; };
+		581740821FD4240F007BA23D /* LevelPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740811FD4240F007BA23D /* LevelPair.m */; };
+		581740851FD42473007BA23D /* RecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 581740841FD42473007BA23D /* RecorderManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		581740541FD40C60007BA23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581740321FD40C60007BA23D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581740391FD40C60007BA23D;
+			remoteInfo = ZGLVideoRecorder;
+		};
+		5817405F1FD40C60007BA23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581740321FD40C60007BA23D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581740391FD40C60007BA23D;
+			remoteInfo = ZGLVideoRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5817403A1FD40C60007BA23D /* ZGLVideoRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGLVideoRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5817403E1FD40C60007BA23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		581740401FD40C60007BA23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		581740411FD40C60007BA23D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		581740431FD40C60007BA23D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		581740441FD40C60007BA23D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		581740471FD40C60007BA23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		581740491FD40C60007BA23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5817404C1FD40C60007BA23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5817404E1FD40C60007BA23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581740531FD40C60007BA23D /* ZGLVideoRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGLVideoRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581740571FD40C60007BA23D /* ZGLVideoRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLVideoRecorderTests.m; sourceTree = "<group>"; };
+		581740591FD40C60007BA23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5817405E1FD40C60007BA23D /* ZGLVideoRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGLVideoRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581740621FD40C60007BA23D /* ZGLVideoRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLVideoRecorderUITests.m; sourceTree = "<group>"; };
+		581740641FD40C60007BA23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581740711FD411E6007BA23D /* LevelMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeterView.h; sourceTree = "<group>"; };
+		581740721FD411E6007BA23D /* LevelMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeterView.m; sourceTree = "<group>"; };
+		581740741FD41464007BA23D /* LevelMeterColorThreshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeterColorThreshold.h; sourceTree = "<group>"; };
+		581740751FD41464007BA23D /* LevelMeterColorThreshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeterColorThreshold.m; sourceTree = "<group>"; };
+		581740771FD41B76007BA23D /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
+		581740781FD41B76007BA23D /* MeterTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterTable.m; sourceTree = "<group>"; };
+		5817407A1FD421D9007BA23D /* MemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoCell.h; sourceTree = "<group>"; };
+		5817407B1FD421D9007BA23D /* MemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoCell.m; sourceTree = "<group>"; };
+		5817407D1FD42276007BA23D /* Memo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memo.h; sourceTree = "<group>"; };
+		5817407E1FD42276007BA23D /* Memo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memo.m; sourceTree = "<group>"; };
+		581740801FD4240F007BA23D /* LevelPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelPair.h; sourceTree = "<group>"; };
+		581740811FD4240F007BA23D /* LevelPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPair.m; sourceTree = "<group>"; };
+		581740831FD42473007BA23D /* RecorderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderManager.h; sourceTree = "<group>"; };
+		581740841FD42473007BA23D /* RecorderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecorderManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581740371FD40C60007BA23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581740501FD40C60007BA23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5817405B1FD40C60007BA23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581740311FD40C60007BA23D = {
+			isa = PBXGroup;
+			children = (
+				5817403C1FD40C60007BA23D /* ZGLVideoRecorder */,
+				581740561FD40C60007BA23D /* ZGLVideoRecorderTests */,
+				581740611FD40C60007BA23D /* ZGLVideoRecorderUITests */,
+				5817403B1FD40C60007BA23D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5817403B1FD40C60007BA23D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5817403A1FD40C60007BA23D /* ZGLVideoRecorder.app */,
+				581740531FD40C60007BA23D /* ZGLVideoRecorderTests.xctest */,
+				5817405E1FD40C60007BA23D /* ZGLVideoRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5817403C1FD40C60007BA23D /* ZGLVideoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				581740701FD411C5007BA23D /* Meter */,
+				581740401FD40C60007BA23D /* AppDelegate.h */,
+				581740411FD40C60007BA23D /* AppDelegate.m */,
+				581740431FD40C60007BA23D /* ViewController.h */,
+				581740441FD40C60007BA23D /* ViewController.m */,
+				581740461FD40C60007BA23D /* Main.storyboard */,
+				581740491FD40C60007BA23D /* Assets.xcassets */,
+				5817404B1FD40C60007BA23D /* LaunchScreen.storyboard */,
+				5817404E1FD40C60007BA23D /* Info.plist */,
+				5817403D1FD40C60007BA23D /* Supporting Files */,
+				5817407A1FD421D9007BA23D /* MemoCell.h */,
+				5817407B1FD421D9007BA23D /* MemoCell.m */,
+				5817407D1FD42276007BA23D /* Memo.h */,
+				5817407E1FD42276007BA23D /* Memo.m */,
+				581740801FD4240F007BA23D /* LevelPair.h */,
+				581740811FD4240F007BA23D /* LevelPair.m */,
+				581740831FD42473007BA23D /* RecorderManager.h */,
+				581740841FD42473007BA23D /* RecorderManager.m */,
+			);
+			path = ZGLVideoRecorder;
+			sourceTree = "<group>";
+		};
+		5817403D1FD40C60007BA23D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5817403E1FD40C60007BA23D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		581740561FD40C60007BA23D /* ZGLVideoRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				581740571FD40C60007BA23D /* ZGLVideoRecorderTests.m */,
+				581740591FD40C60007BA23D /* Info.plist */,
+			);
+			path = ZGLVideoRecorderTests;
+			sourceTree = "<group>";
+		};
+		581740611FD40C60007BA23D /* ZGLVideoRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				581740621FD40C60007BA23D /* ZGLVideoRecorderUITests.m */,
+				581740641FD40C60007BA23D /* Info.plist */,
+			);
+			path = ZGLVideoRecorderUITests;
+			sourceTree = "<group>";
+		};
+		581740701FD411C5007BA23D /* Meter */ = {
+			isa = PBXGroup;
+			children = (
+				581740711FD411E6007BA23D /* LevelMeterView.h */,
+				581740721FD411E6007BA23D /* LevelMeterView.m */,
+				581740741FD41464007BA23D /* LevelMeterColorThreshold.h */,
+				581740751FD41464007BA23D /* LevelMeterColorThreshold.m */,
+				581740771FD41B76007BA23D /* MeterTable.h */,
+				581740781FD41B76007BA23D /* MeterTable.m */,
+			);
+			path = Meter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581740391FD40C60007BA23D /* ZGLVideoRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581740671FD40C60007BA23D /* Build configuration list for PBXNativeTarget "ZGLVideoRecorder" */;
+			buildPhases = (
+				581740361FD40C60007BA23D /* Sources */,
+				581740371FD40C60007BA23D /* Frameworks */,
+				581740381FD40C60007BA23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGLVideoRecorder;
+			productName = ZGLVideoRecorder;
+			productReference = 5817403A1FD40C60007BA23D /* ZGLVideoRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		581740521FD40C60007BA23D /* ZGLVideoRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5817406A1FD40C60007BA23D /* Build configuration list for PBXNativeTarget "ZGLVideoRecorderTests" */;
+			buildPhases = (
+				5817404F1FD40C60007BA23D /* Sources */,
+				581740501FD40C60007BA23D /* Frameworks */,
+				581740511FD40C60007BA23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581740551FD40C60007BA23D /* PBXTargetDependency */,
+			);
+			name = ZGLVideoRecorderTests;
+			productName = ZGLVideoRecorderTests;
+			productReference = 581740531FD40C60007BA23D /* ZGLVideoRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5817405D1FD40C60007BA23D /* ZGLVideoRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5817406D1FD40C60007BA23D /* Build configuration list for PBXNativeTarget "ZGLVideoRecorderUITests" */;
+			buildPhases = (
+				5817405A1FD40C60007BA23D /* Sources */,
+				5817405B1FD40C60007BA23D /* Frameworks */,
+				5817405C1FD40C60007BA23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581740601FD40C60007BA23D /* PBXTargetDependency */,
+			);
+			name = ZGLVideoRecorderUITests;
+			productName = ZGLVideoRecorderUITests;
+			productReference = 5817405E1FD40C60007BA23D /* ZGLVideoRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581740321FD40C60007BA23D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = diyinqianchang;
+				TargetAttributes = {
+					581740391FD40C60007BA23D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AYG46SGLDU;
+						ProvisioningStyle = Automatic;
+					};
+					581740521FD40C60007BA23D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AYG46SGLDU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 581740391FD40C60007BA23D;
+					};
+					5817405D1FD40C60007BA23D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AYG46SGLDU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 581740391FD40C60007BA23D;
+					};
+				};
+			};
+			buildConfigurationList = 581740351FD40C60007BA23D /* Build configuration list for PBXProject "ZGLVideoRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581740311FD40C60007BA23D;
+			productRefGroup = 5817403B1FD40C60007BA23D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581740391FD40C60007BA23D /* ZGLVideoRecorder */,
+				581740521FD40C60007BA23D /* ZGLVideoRecorderTests */,
+				5817405D1FD40C60007BA23D /* ZGLVideoRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581740381FD40C60007BA23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5817404D1FD40C60007BA23D /* LaunchScreen.storyboard in Resources */,
+				5817404A1FD40C60007BA23D /* Assets.xcassets in Resources */,
+				581740481FD40C60007BA23D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581740511FD40C60007BA23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5817405C1FD40C60007BA23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581740361FD40C60007BA23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581740451FD40C60007BA23D /* ViewController.m in Sources */,
+				581740851FD42473007BA23D /* RecorderManager.m in Sources */,
+				581740421FD40C60007BA23D /* AppDelegate.m in Sources */,
+				581740791FD41B76007BA23D /* MeterTable.m in Sources */,
+				5817403F1FD40C60007BA23D /* main.m in Sources */,
+				581740761FD41464007BA23D /* LevelMeterColorThreshold.m in Sources */,
+				581740731FD411E6007BA23D /* LevelMeterView.m in Sources */,
+				581740821FD4240F007BA23D /* LevelPair.m in Sources */,
+				5817407C1FD421D9007BA23D /* MemoCell.m in Sources */,
+				5817407F1FD42276007BA23D /* Memo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5817404F1FD40C60007BA23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581740581FD40C60007BA23D /* ZGLVideoRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5817405A1FD40C60007BA23D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581740631FD40C60007BA23D /* ZGLVideoRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		581740551FD40C60007BA23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581740391FD40C60007BA23D /* ZGLVideoRecorder */;
+			targetProxy = 581740541FD40C60007BA23D /* PBXContainerItemProxy */;
+		};
+		581740601FD40C60007BA23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581740391FD40C60007BA23D /* ZGLVideoRecorder */;
+			targetProxy = 5817405F1FD40C60007BA23D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		581740461FD40C60007BA23D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581740471FD40C60007BA23D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5817404B1FD40C60007BA23D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5817404C1FD40C60007BA23D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		581740651FD40C60007BA23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		581740661FD40C60007BA23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		581740681FD40C60007BA23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLVideoRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLVideoRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		581740691FD40C60007BA23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLVideoRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLVideoRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5817406B1FD40C60007BA23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLVideoRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLVideoRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGLVideoRecorder.app/ZGLVideoRecorder";
+			};
+			name = Debug;
+		};
+		5817406C1FD40C60007BA23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLVideoRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLVideoRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGLVideoRecorder.app/ZGLVideoRecorder";
+			};
+			name = Release;
+		};
+		5817406E1FD40C60007BA23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLVideoRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLVideoRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGLVideoRecorder;
+			};
+			name = Debug;
+		};
+		5817406F1FD40C60007BA23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AYG46SGLDU;
+				INFOPLIST_FILE = ZGLVideoRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhangguolin.ZGLVideoRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGLVideoRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581740351FD40C60007BA23D /* Build configuration list for PBXProject "ZGLVideoRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581740651FD40C60007BA23D /* Debug */,
+				581740661FD40C60007BA23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581740671FD40C60007BA23D /* Build configuration list for PBXNativeTarget "ZGLVideoRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581740681FD40C60007BA23D /* Debug */,
+				581740691FD40C60007BA23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5817406A1FD40C60007BA23D /* Build configuration list for PBXNativeTarget "ZGLVideoRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5817406B1FD40C60007BA23D /* Debug */,
+				5817406C1FD40C60007BA23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5817406D1FD40C60007BA23D /* Build configuration list for PBXNativeTarget "ZGLVideoRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5817406E1FD40C60007BA23D /* Debug */,
+				5817406F1FD40C60007BA23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581740321FD40C60007BA23D /* Project object */;
+}

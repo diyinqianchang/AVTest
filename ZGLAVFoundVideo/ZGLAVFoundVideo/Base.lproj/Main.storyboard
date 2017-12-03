@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4XA-bH-D0p">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nh-nx-7Di">
+                                        <frame key="frameInset" minY="7" width="37" height="37" maxX="12"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" image="btn_video_flip_camera"/>
+                                        <connections>
+                                            <action selector="toggleButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HeW-fQ-yxU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wS-7L-JwM">
+                                        <frame key="frameInset" minX="5" minY="7" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" image="icon_btn_camera_flash_auto"/>
+                                        <connections>
+                                            <action selector="flashAutoClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iju-Ig-Lzd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goj-Wl-E8R">
+                                        <frame key="frameInset" minX="50" minY="7" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" image="icon_btn_camera_flash_on"/>
+                                        <connections>
+                                            <action selector="flashOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="01f-ii-hmJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8Q-nm-ph9">
+                                        <frame key="frameInset" minX="95" minY="5" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" image="icon_btn_camera_flash_off"/>
+                                        <connections>
+                                            <action selector="flashOffClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZJM-JT-nfx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="v7C-Kw-jc8"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oFC-SY-Uup" userLabel="ViewContent">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera_focus_red" translatesAutoresizingMaskIntoConstraints="NO" id="1Bp-38-UgS">
+                                        <frame key="frameInset" minX="51" minY="52" width="76" height="76"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_tabBar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="kjQ-51-Mxh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="Uo0-dM-DZx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRw-Gm-5pW">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="KmO-Jn-BOS"/>
+                                    <constraint firstAttribute="width" constant="65" id="l0k-fu-gJr"/>
+                                </constraints>
+                                <state key="normal" image="icon_facial_btn_take" backgroundImage="sc_btn_take"/>
+                                <connections>
+                                    <action selector="takeButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7zw-Vq-vNi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MRw-Gm-5pW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1IK-Fd-dTJ"/>
+                            <constraint firstItem="4XA-bH-D0p" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1nR-BR-2cf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kjQ-51-Mxh" secondAttribute="bottom" id="2WY-SY-V1p"/>
+                            <constraint firstAttribute="trailing" secondItem="kjQ-51-Mxh" secondAttribute="trailing" id="7Np-FF-n02"/>
+                            <constraint firstAttribute="trailing" secondItem="4XA-bH-D0p" secondAttribute="trailing" id="Ina-jB-r8I"/>
+                            <constraint firstItem="4XA-bH-D0p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b5c-Bo-qV4"/>
+                            <constraint firstItem="MRw-Gm-5pW" firstAttribute="centerY" secondItem="kjQ-51-Mxh" secondAttribute="centerY" id="hmi-Wr-eoR"/>
+                            <constraint firstItem="kjQ-51-Mxh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="huP-Ne-Llh"/>
+                            <constraint firstItem="oFC-SY-Uup" firstAttribute="top" secondItem="4XA-bH-D0p" secondAttribute="bottom" id="jWl-5q-rTh"/>
+                            <constraint firstItem="oFC-SY-Uup" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lVg-qs-FN3"/>
+                            <constraint firstItem="kjQ-51-Mxh" firstAttribute="top" secondItem="oFC-SY-Uup" secondAttribute="bottom" id="nex-Zq-EpJ"/>
+                            <constraint firstAttribute="trailing" secondItem="oFC-SY-Uup" secondAttribute="trailing" id="woZ-a7-rND"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flashAutoButton" destination="3wS-7L-JwM" id="kNN-fB-dsC"/>
+                        <outlet property="flashOffButton" destination="A8Q-nm-ph9" id="SlH-LP-nAm"/>
+                        <outlet property="flashOnButton" destination="goj-Wl-E8R" id="ZYf-7I-yyf"/>
+                        <outlet property="focusImage" destination="1Bp-38-UgS" id="KGp-V1-EtB"/>
+                        <outlet property="takePhotoBtn" destination="MRw-Gm-5pW" id="7hb-qv-v1u"/>
+                        <outlet property="viewContainer" destination="oFC-SY-Uup" id="0Ng-WU-6di"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="415" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_tabBar_bg" width="20" height="20"/>
+        <image name="btn_video_flip_camera" width="37" height="37"/>
+        <image name="camera_focus_red" width="75" height="75"/>
+        <image name="icon_btn_camera_flash_auto" width="37" height="37"/>
+        <image name="icon_btn_camera_flash_off" width="37" height="37"/>
+        <image name="icon_btn_camera_flash_on" width="37" height="37"/>
+        <image name="icon_facial_btn_take" width="31" height="31"/>
+        <image name="sc_btn_take" width="73" height="73"/>
+    </resources>
+</document>
